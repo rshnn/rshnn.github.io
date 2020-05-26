@@ -1,14 +1,16 @@
 
 body {
-  background: #fff;
-  color: #121212;
-  /*font-family: "PT Serif", serif;*/
+  background: #ffffff;
   font-size: 16px;
   line-height: 1.25em;
   margin: 2em auto 4em auto;
   max-width: 1200px;
   padding: 0 2em;
   position: relative;
+}
+
+.header{
+  margin: 0 0 2em 0; 
 }
 
 
@@ -18,7 +20,7 @@ h1 {
   font-weight: 500;
   /*letter-spacing: 0.125em;*/
   line-height: 1.125em; 
-  margin: 1em 0 0;
+  margin: 1em 0 0.25em 0;
 }
 
 ul {
@@ -81,12 +83,16 @@ a:not(:hover) {
 }
 
 .postimg {
-  border: solid 1px lightgray;
+  border: solid 2px lightgray;
   margin: 0 0 0.5em 0;
   height: 140px;
   /*width: 720px;*/
   width: 75%;
   object-fit: cover; 
+}
+
+.post{
+  margin: 0 0 2em 0;
 }
 
 /*https://alligator.io/css/cropping-images-object-fit/*/
@@ -102,4 +108,10 @@ a:not(:hover) {
 
 .hubert {  
   object-position: 0 30%;  
+}
+
+
+.icon {
+  height: 24px;
+  margin: 0 0.5em 1em 0; 
 }

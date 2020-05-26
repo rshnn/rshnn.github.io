@@ -1,5 +1,7 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button'
 import Post from './components/post.js'
+import Socials from './components/socials.js'
 import './App.css';
 
 function App() {
@@ -8,13 +10,10 @@ function App() {
 
     <div className="App">
      
-      <h1>Roshan Patel</h1>  
-
-      <ul>
-        <li><a href="#">Linkedin</a></li>
-        <li><a href="#">Github</a></li>
-      </ul>
-
+      <div className='header'> 
+        <h1>Roshan Patel</h1>  
+        <Socials /> 
+      </div>
      
 
       <h2>Projects</h2>
