@@ -20,29 +20,56 @@ function App() {
 
       <div className='post-container'>
 
-        <Post title='Pokemon Type Prediction' 
+
+        <Post title='Image colorization using neural networks' 
+              url='https://github.com/rshnn/image-colorizer'
+              imgname='recolor-trees.png'
+              classNames='recolor'
+        />
+        
+
+        <Post title='Pokédex: type prediction' 
               url='https://github.com/rshnn/pokemon-types'
               imgname='poke-orig.png'
               classNames='poketypes'
         />  
 
-        <Post title='What if Hubery Humphrey has a Data Scientist?' 
-              url='https://github.com/rshnn/pokemon-types'
-              imgname='hubert.jpg'
-              classNames='hubert'
+        <Post title='L3 cache (LLC) covert text channel exploit' 
+              url='https://github.com/rshnn/covert'
+              imgname='covert.gif'
+              classNames='covert'
         />
 
-        <Post title='Image Colorization using Neural Networks' 
-              url='https://github.com/rshnn/pokemon-types'
-              imgname='recolor.png'
-        />
-        
 
-        <Post title='Machine eLearned 18th Century Gangsta Rap' 
-              url='https://github.com/rshnn/pokemon-types'
-              imgname='rap_orig.jpg'
-              classNames='rap'
+        <Post title='Agent-based minesweeper solver' 
+              url='#'
+              imgname='minesweeper.png'
+              classNames='minesweeper'
         />
+
+
+        <Post title='An ontology to assist music success prediction' 
+              url='https://github.com/rshnn/song-success-predictor'
+              imgname='song-success.jpg'
+              classNames='song'
+        />
+
+
+        <Post title='Search algorithms over 2D maze' 
+              url='#'
+              imgname='maze.png'
+              classNames='maze'
+        />
+
+
+        <Post title='An implementation of flocking behavior' 
+              url='https://github.com/rshnn/flockers'
+              imgname='droids.gif'
+              classNames='flockers'
+        />
+
+
+
 
       </div>
 
@@ -54,3 +81,18 @@ function App() {
 }
 
 export default App;
+
+
+
+        // <Post title='Machine Learned 18th Century Gangsta Rap' 
+        //       url='https://github.com/rshnn/pokemon-types'
+        //       imgname='rap_orig.jpg'
+        //       classNames='rap'
+        // />
+
+
+        // <Post title='What if Hubery Humphrey has a Data Scientist?' 
+        //       url='https://github.com/rshnn/pokemon-types'
+        //       imgname='hubert.jpg'
+        //       classNames='hubert'
+        // />

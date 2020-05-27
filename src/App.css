@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   line-height: 1.25em;
   margin: 2em auto 4em auto;
-  max-width: 1200px;
+  max-width: 1000px;
   padding: 0 2em;
   position: relative;
 }
@@ -78,6 +78,12 @@ a:not(:hover) {
 
 
 /* T L B R */
+
+.icon {
+  height: 24px;
+  margin: 0 0.5em 1em 0; 
+}
+
 .post-container{
   margin: 2em 0 4em 0;
 }
@@ -98,20 +104,48 @@ a:not(:hover) {
 /*https://alligator.io/css/cropping-images-object-fit/*/
 
 .poketypes {
-  object-position: 0 0%;
+  object-fit: none;
+  object-position: 50% 0%;
 }
 
+
+.song {
+  object-position: 0 20%;
+}
+
+
+.recolor {
+  object-position: 0 70%;
+}
+
+.flockers {
+  object-fit: none;
+  object-position: 50% 10%;
+}
+
+.covert {
+  object-fit: none;
+  object-position: 30% 20%;
+}
+
+.maze {
+  object-position: 0% 49%;
+}
+
+.minesweeper {
+  object-position: 0% 10%;
+}
+
+
+
+
+/* Extras */
 
 .rap {
   object-position: 0 30%;  
 }
 
+
 .hubert {  
   object-position: 0 30%;  
-}
-
-
-.icon {
-  height: 24px;
-  margin: 0 0.5em 1em 0; 
 }
