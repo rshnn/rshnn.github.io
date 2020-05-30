@@ -1,22 +1,23 @@
 import React from 'react';
 
+function Posts({data}){ 
 
+    const posts = data.map( (post, index) => {
+       
+        const css_classes = 'postimg ' + post.classNames  
 
-function Post({title, url, imgname, classNames}){
+        return(
+            <div key={index} className='post'>
+                <a href={post.url}>
+                    <h3>{post.title}</h3>
+                    <img className={css_classes} src={post.imgname}>  
+                    </img>
+                </a>
+            </div>
+        );       
+    })     
 
-	const css_classes = 'postimg ' + classNames
-
-	return(
-		<div className='post'>
-			<a href={url}>
-				<h3>{title}</h3>
-				<img className={css_classes} src={imgname}>  
-				</img>
-			</a>
-		</div>
-	);
-
+    return(posts);
 }
 
-
-export default Post;  
+export default Posts;  
