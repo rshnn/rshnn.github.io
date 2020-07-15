@@ -13,7 +13,7 @@
         "name": "poketypes" ,
         "title" : "Pokédex: type prediction", 
         "url": "https://github.com/rshnn/pokemon-types",
-        "imgname" :"poke-orig.png", 
+        "imgname" :"poke.png", 
         "classNames" : "poketypes"
     },
     

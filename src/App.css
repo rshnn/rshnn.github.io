@@ -104,8 +104,7 @@ a:not(:hover) {
 /*https://alligator.io/css/cropping-images-object-fit/*/
 
 .poketypes {
-  object-fit: none;
-  object-position: 50% 0%;
+  object-position: 50% 20%;
 }
 
 
