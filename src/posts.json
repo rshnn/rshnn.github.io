@@ -28,7 +28,7 @@
     {
         "name": "minesweeper" ,
         "title" : "Agent-based minesweeper solver", 
-        "url": "#",
+        "url": "https://github.com/rshnn/minesweeper-knowledgebase-agent",
         "imgname" :"minesweeper.png", 
         "classNames" : "minesweeper" 
     }, 
@@ -44,7 +44,7 @@
     {
         "name": "maze" ,
         "title" : "Search algorithms over 2D maze", 
-        "url": "#",
+        "url": "https://github.com/rshnn/maze-search",
         "imgname" :"maze.png", 
         "classNames" : "maze" 
     }, 
