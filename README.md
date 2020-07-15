@@ -17,3 +17,8 @@ Install dependencies:
 
 Run server: 
 `npm start`
+
+
+To deploy: 
+`npm run deploy` 
+
