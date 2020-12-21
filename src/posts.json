@@ -23,7 +23,15 @@
         "url": "https://github.com/rshnn/covert",
         "imgname" :"covert.gif", 
         "classNames" : "covert" 
-    },  
+    },
+
+    {
+        "name": "dab" ,
+        "title" : "Dab-detector using MobileNetV1 architecture in web GUI", 
+        "url": "https://github.com/rshnn/dabbin",
+        "imgname" :"dab-cartoon.jpg", 
+        "classNames" : "dab" 
+    },
     
     {
         "name": "minesweeper" ,

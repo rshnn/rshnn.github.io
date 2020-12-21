@@ -136,6 +136,11 @@ a:not(:hover) {
 }
 
 
+.dab {
+  object-position: 50% 40%;
+  object-fit: none; 
+}
+
 
 
 /* Extras */
