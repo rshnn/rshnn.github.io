@@ -142,6 +142,10 @@ a:not(:hover) {
 }
 
 
+.xray { 
+  object-position: 0% 60%;  
+}
+
 
 /* Extras */
 

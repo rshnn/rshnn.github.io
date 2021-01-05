@@ -16,7 +16,15 @@
         "imgname" :"poke.png", 
         "classNames" : "poketypes"
     },
-    
+
+    {
+        "name": "xray" ,
+        "title" : "X-ray denoising with a skip-forward autoencoder network", 
+        "url": "https://github.com/rshnn/xray-denoising",
+        "imgname" :"xray.png", 
+        "classNames" : "xray" 
+    },
+
     {
         "name": "covert" ,
         "title" : "L3 cache (LLC) covert text channel exploit", 
