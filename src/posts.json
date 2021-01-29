@@ -5,32 +5,8 @@
         "name": "recolor" ,
         "title" : "Image colorization using neural networks", 
         "url": "https://github.com/rshnn/image-colorizer",
-        "imgname" :"recolor-trees.png", 
+        "imgname" :"image-colorizer-2.png", 
         "classNames" : "recolor"
-    },
-    
-    {
-        "name": "poketypes" ,
-        "title" : "Pokédex: type prediction", 
-        "url": "https://github.com/rshnn/pokemon-types",
-        "imgname" :"poke.png", 
-        "classNames" : "poketypes"
-    },
-
-    {
-        "name": "xray" ,
-        "title" : "X-ray denoising with a skip-forward autoencoder network", 
-        "url": "https://github.com/rshnn/xray-denoising",
-        "imgname" :"xray.png", 
-        "classNames" : "xray" 
-    },
-
-    {
-        "name": "covert" ,
-        "title" : "L3 cache (LLC) covert text channel exploit", 
-        "url": "https://github.com/rshnn/covert",
-        "imgname" :"covert.gif", 
-        "classNames" : "covert" 
     },
 
     {
@@ -42,12 +18,36 @@
     },
     
     {
+        "name": "xray" ,
+        "title" : "X-ray denoising with a skip-forward autoencoder network", 
+        "url": "https://github.com/rshnn/xray-denoising",
+        "imgname" :"xray.png", 
+        "classNames" : "xray" 
+    },
+    
+    {
+        "name": "poketypes" ,
+        "title" : "Pokédex: type prediction", 
+        "url": "https://github.com/rshnn/pokemon-types",
+        "imgname" :"poke.png", 
+        "classNames" : "poketypes"
+    },
+
+    {
         "name": "minesweeper" ,
         "title" : "Agent-based minesweeper solver", 
         "url": "https://github.com/rshnn/minesweeper-knowledgebase-agent",
         "imgname" :"minesweeper.png", 
         "classNames" : "minesweeper" 
     }, 
+
+    {
+        "name": "covert" ,
+        "title" : "L3 cache (LLC) covert text channel exploit", 
+        "url": "https://github.com/rshnn/covert",
+        "imgname" :"covert.gif", 
+        "classNames" : "covert" 
+    },
 
     {
         "name": "song-success" ,
