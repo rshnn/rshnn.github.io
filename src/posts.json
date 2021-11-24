@@ -2,6 +2,14 @@
   
    [
     {
+        "name": "battleship" ,
+        "title" : "Agent trained to play Battleship using deep reinforcement learning (PPO, openAI gym)", 
+        "url": "https://github.com/rshnn/battleship",
+        "imgname" :"battleship.jpg", 
+        "classNames" : "battleship"
+    },
+
+    {
         "name": "dataworsk2021" ,
         "title" : "Introduction to Deep Learning with Tensorflow @DATAWorks2021", 
         "url": "https://github.com/rshnn/dataworks-2021-dl-tutorial",

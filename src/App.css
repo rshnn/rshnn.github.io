@@ -152,6 +152,10 @@ a:not(:hover) {
 }
 
 
+.battleship {  
+  object-position: 0% 50%;
+}
+
 
 
 /* Extras */
